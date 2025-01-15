@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            max-width: 45%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 50px;
+            background-color: #0078D4;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>81st Aerobatics Demonstration</h1>
+    <p>Here are two amazing images from our performances:</p>
+
+    <div class="gallery">
+        <!-- Replace with the paths to your two images -->
+        <img src="image1.png" alt="Aerobatics Performance 1">
+        <img src="image2.png" alt="Aerobatics Performance 2">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 81st Aerobatics Demonstration Team</p>
+    </footer>
+</body>
+</html>
